@@ -1,0 +1,98 @@
+.App {
+    margin-top: 3em;
+}
+
+a:hover {
+    color: #6772ac;
+    text-decoration: underline
+}
+
+a {
+    color: #3f51b5
+}
+
+@media (max-width:500px) {
+    .ui.header:first-child {
+        font-size: 1rem;
+        padding: 4%!important;
+        white-space: normal!important
+    }
+}
+
+.ui.message>:last-child {
+    margin-bottom: 0;
+    overflow-wrap: break-word!important;
+    flex-flow: wrap;
+    white-space: normal
+}
+
+.ui.header+p {
+    padding-top: 2%
+}
+
+.ui.primary.button:hover,.ui.primary.buttons .button:hover {
+    color: #333!important;
+    background-color: #fff!important;
+    text-shadow: none;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    border: 1px solid #333;
+    box-shadow: #3f51b542 4px 4px 0 0
+}
+
+.ui.primary.button {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    transition: all .3s;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    color: #fff;
+    border-color: #c4c4c4;
+    background: #3f51b5!important;
+    border-radius: .25em;
+    white-space: nowrap;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px
+}
+
+.ui.container {
+    display: block;
+    max-width: 800px!important;
+    background-color: #fff!important;
+    border-color: #c4c4c4!important;
+    border-radius: 3px!important;
+    border-style: solid!important;
+    border-width: 1px!important;
+    box-shadow: #3f51b542 4px 4px 0 0;
+    font-size: 1em!important;
+    padding: 0 2% 2%;
+    overflow: hidden!important
+}
+
+h1.ui.header {
+    padding-bottom: 2%!important;
+    padding-top: 2%;
+    font-size: 1.6rem;
+    background-color: #f9f9f9!important;
+    border-bottom: 1px solid #c4c4c4!important;
+    color: #333!important;
+    font-family: Roboto,sans-serif!important;
+    font-weight: 500!important;
+    line-height: 1.3em!important;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 0;
+    width: 117%;
+    margin-left: -8.5%;
+}
+
+.ui.primary.button:active,.ui.primary.buttons .button:active {
+    background-color: #475bcb29!important;
+    color: #191918!important
+}
